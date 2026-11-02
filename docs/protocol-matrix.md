@@ -15,7 +15,7 @@ This inventory tracks assessment work; it is not a blanket compatibility verdict
 
 | Pair / subject | Status | Evidence |
 |---|---|---|
-| OIX v0.1 ↔ A2A v1.0.0 | **Assessed at specification-review level (E1); no runtime conformance claim** | [OIX↔A2A assessment](oix-a2a-assessment-v0.1.md) |
+| OIX v0.1 ↔ A2A v1.0.0 | **Assessed at specification-review level (E1); no runtime conformance claim** | [OIX↔A2A assessment](oix-a2a-assessment-v0.1.md); six draft fixtures in companion repository |
 | OIX ↔ MCP | Not yet assessed | None |
 | MCP ↔ A2A | Not yet assessed | None |
 | PCakes integration profiles ↔ above protocols | Not yet assessed | None |
