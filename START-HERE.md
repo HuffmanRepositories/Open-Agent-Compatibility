@@ -19,6 +19,6 @@ Document one specific mapping or mismatch at a time. Cite authoritative upstream
 Read [AGENTS.md](AGENTS.md). Never infer equivalence from similar field names. Separate exact matches, partial mappings, unsupported behavior, and unknowns. Do not claim certification, universal compatibility, security, or conformance from a mapping document alone.
 
 ## Validation
-This repository is primarily a research and documentation project. Follow any checks documented in the target contribution. Validate JSON examples and links, and report when no automated conformance test exists.
+Run `python scripts/validate_mapping_profiles.py` and `python -m unittest discover -s tests -v`. These checks validate mapping-profile structure only; they do not establish runtime conformance. Validate links and report any behavior that remains untested.
 
 — Robert Huffman
