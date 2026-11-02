@@ -66,7 +66,7 @@ This is not a deployment security assessment, certification, or conformance clai
 
 ## Fixture work
 
-Initial draft examples are tracked in the companion [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures): a text task-request mapping, cancellation-unsupported negative case, capability mapping case, and artifact-versus-evidence case. They are illustrative only and have not been validated against implementations.
+Initial draft examples are tracked in the companion [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures): a text task-request mapping, cancellation-unsupported negative case, capability mapping case, artifact-versus-evidence case, and task-lifecycle/correlation case. They are illustrative only and have not been validated against implementations.
 
 ## Evidence and next steps
 
