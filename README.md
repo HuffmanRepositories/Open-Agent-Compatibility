@@ -9,6 +9,8 @@ Open Agent Compatibility (OAC) helps existing agent protocols, schemas, and inte
 
 This project is a **compatibility layer of documentation and test methodology—not another agent protocol or runtime**.
 
+**Status:** Research foundation / early research. Compatibility mappings and fixture validation are evidence artifacts, not implementation certification or proof of security/interoperability.
+
 ## Why this exists
 
 The open agent ecosystem already has valuable protocols and implementations. Fragmentation often appears at the boundaries: similar concepts have different names, lifecycle assumptions, data shapes, error behavior, or security expectations.
