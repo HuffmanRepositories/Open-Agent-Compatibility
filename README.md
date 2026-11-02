@@ -1,5 +1,8 @@
 # Open Agent Compatibility
 
+[Start here](START-HERE.md) · [AI agent guidance](AGENTS.md)
+
+
 **Neutral interoperability research, mapping, and conformance work for open agent ecosystems.**
 
 Open Agent Compatibility (OAC) helps existing agent protocols, schemas, and integration projects work together by documenting their semantics, identifying compatibility gaps, and creating reproducible mapping and conformance artifacts.
