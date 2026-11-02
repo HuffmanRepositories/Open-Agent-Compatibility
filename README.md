@@ -52,6 +52,7 @@ OAC is intended to complement these efforts through **cross-project mapping, ind
 - [Protocol matrix](docs/protocol-matrix.md)
 - [Mapping methodology](docs/mapping-methodology.md)
 - [Mapping format example](examples/mapping-profile.json)
+- [Mapping profile format and validation](docs/mapping-profile-format.md)
 - [Conformance evidence](conformance/README.md)
 - [Contributing](CONTRIBUTING.md)
 
