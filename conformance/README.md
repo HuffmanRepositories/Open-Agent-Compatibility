@@ -22,3 +22,8 @@ Every published result should include:
 - date and reviewer.
 
 Keep tests deterministic where possible. Avoid network-dependent tests in the default suite unless they are explicitly marked as integration tests.
+
+
+## Local checks
+
+Run `python scripts/validate_mapping_profiles.py` to validate the mapping-profile examples and `python -m unittest discover -s tests -v` to run the structural validator tests. These checks do not test live implementations or establish runtime conformance.
