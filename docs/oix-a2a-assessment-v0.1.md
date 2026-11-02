@@ -6,7 +6,7 @@
 
 ## Version pins and sources
 
-- OIX protocol version **0.1**: [protocol specification](https://github.com/HuffmanMainNode/Open-Intelligence-Exchange/blob/main/protocol/oix-v0.1.md). OIX v0.1 is experimental, not a ratified standard. This pins the protocol version; before E2/E3, replace the default-branch source link with an immutable upstream commit permalink.
+- OIX protocol version **0.1**: [protocol specification](https://github.com/HuffmanMainNode/Open-Intelligence-Exchange/blob/8c25c3b014eddaf074d5c86f0244e22140617728/protocol/oix-v0.1.md). OIX v0.1 is experimental, not a ratified standard. The source is pinned to immutable commit `8c25c3b014eddaf074d5c86f0244e22140617728`.
 - A2A **v1.0.0**: [official versioned specification](https://a2a-protocol.org/v1.0.0/specification). This uses a versioned release URL, not moving main.
 - Supporting source: [OIX README](https://github.com/HuffmanMainNode/Open-Intelligence-Exchange/blob/main/README.md), [A2A v1.0 migration notes](https://github.com/a2aproject/A2A/blob/main/docs/whats-new-v1.md).
 
@@ -63,6 +63,10 @@ No fixtures are added yet. Fixture expectations should document gaps, not invent
 ## Security review boundary
 
 This is not a deployment security assessment, certification, or conformance claim. It does not compare vulnerability status, key custody, card trust/discovery, or authorization correctness. An OIX signature authenticates signed bytes under a key; it does not establish truth, authorization, or operator identity. Do not treat it as equivalent to A2A transport/security controls.
+
+## Fixture work
+
+Initial draft examples are tracked in the companion [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures): a text task-request mapping and a cancellation-unsupported negative case. They are illustrative only and have not been validated against implementations.
 
 ## Evidence and next steps
 
