@@ -60,10 +60,6 @@ These are static examples only. They have not been validated against live protoc
 
 This is not a deployment security assessment, certification, or conformance claim. It does not compare vulnerability status, key custody, card trust/discovery, or authorization correctness. An OIX signature authenticates signed bytes under a key; it does not establish truth, authorization, or operator identity. Do not treat it as equivalent to A2A transport/security controls.
 
-## Fixture work
-
-Initial draft examples are tracked in the companion [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures): a text task-request mapping, cancellation-unsupported negative case, capability mapping case, artifact-versus-evidence case, and task-lifecycle/correlation case. They are illustrative only and have not been validated against implementations.
-
 ## Evidence and next steps
 
 - Evidence: **E1 — specification review** only.
