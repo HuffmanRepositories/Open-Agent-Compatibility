@@ -50,15 +50,11 @@ A bridge could map a selected A2A skill to an OIX capability, create a signed re
 
 **Caution:** A2A lifecycle, event history, artifact Parts, streaming and cancellation are not native OIX v0.1 concepts. Discrete OIX messages lose information unless bridge state/extensions preserve it.
 
-## Candidate fixture topics (not yet fixtures)
+## Companion fixture coverage
 
-1. Capability label ↔ Agent Card skill, including unmapped behavior.
-2. Text-only OIX task request ↔ A2A SendMessage with correlation metadata.
-3. A2A Task lifecycle ↔ OIX message sequence, explicitly documenting bridge-managed state.
-4. A2A Artifact/Part ↔ OIX payload/evidence, distinguishing task output from provenance.
-5. Cancellation/streaming negative case showing unsupported core semantics.
+The [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures) currently contains six illustrative draft cases: text request mapping, cancellation unsupported, capability mapping, artifact versus evidence, task lifecycle/correlation, and protocol error versus task failure. Fixture expectations document gaps rather than inventing universal field names.
 
-No fixtures are added yet. Fixture expectations should document gaps, not invent universal field names.
+These are static examples only. They have not been validated against live protocol implementations; do not treat them as conformance evidence.
 
 ## Security review boundary
 
@@ -71,7 +67,8 @@ Initial draft examples are tracked in the companion [Open-Agent-Compatibility-Fi
 ## Evidence and next steps
 
 - Evidence: **E1 — specification review** only.
-- No fixture validation, runtime implementation tests, certification, or independent review claimed.
+- Fixture files are illustrative drafts; validator/CI execution and runtime implementation tests remain unconfirmed.
+- No certification or independent review claimed.
 - Before E2: pin OIX to an immutable commit permalink, cite exact A2A sections, review mapping with maintainers, and choose a bridge-profile owner.
 - Before E3: name implementation/version pairs, define bridge behavior, add fixtures, test both directions, and record loss.
 - Reassess on upstream version changes; do not silently update source versions.
