@@ -1,6 +1,6 @@
 # Open Agent Compatibility
 
-[Start here](START-HERE.md) · [AI agent guidance](AGENTS.md)
+[Start here](START-HERE.md) · [Whitepaper](WHITEPAPER.md) · [AI agent guidance](AGENTS.md)
 
 
 **Neutral interoperability research, mapping, and conformance work for open agent ecosystems.**
