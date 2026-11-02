@@ -1,0 +1,34 @@
+{
+  "profile_id": "example.oac.mapping",
+  "status": "illustrative",
+  "assessment_date": null,
+  "source": {
+    "project": "SOURCE_PROJECT",
+    "version": "PINNED_VERSION_OR_COMMIT",
+    "references": []
+  },
+  "target": {
+    "project": "TARGET_PROJECT",
+    "version": "PINNED_VERSION_OR_COMMIT",
+    "references": []
+  },
+  "direction": "source-to-target",
+  "features": [
+    {
+      "feature_id": "example.feature",
+      "source_concept": "SOURCE_CONCEPT",
+      "target_concept": "TARGET_CONCEPT",
+      "outcome": "not-tested",
+      "transformation": null,
+      "losses": [],
+      "constraints": [],
+      "evidence_level": "E0",
+      "tests": [],
+      "notes": "Replace all placeholders before using this profile as evidence."
+    }
+  ],
+  "review": {
+    "reviewers": [],
+    "reviewed_at": null
+  }
+}
