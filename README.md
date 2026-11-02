@@ -56,6 +56,15 @@ OAC is intended to complement these efforts through **cross-project mapping, ind
 - [Conformance evidence](conformance/README.md)
 - [Contributing](CONTRIBUTING.md)
 
+## Validate locally
+
+```bash
+python scripts/validate_mapping_profiles.py
+python -m unittest discover -s tests -v
+```
+
+These checks validate the example profile structure; they do not test live implementations or establish runtime conformance.
+
 ## Principles
 
 1. **Respect upstream ownership.** Link to authoritative sources and preserve their terminology.
