@@ -52,7 +52,7 @@ A bridge could map a selected A2A skill to an OIX capability, create a signed re
 
 ## Companion fixture coverage
 
-The [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures) currently contains six illustrative draft cases: text request mapping, cancellation unsupported, capability mapping, artifact versus evidence, task lifecycle/correlation, and protocol error versus task failure. Fixture expectations document gaps rather than inventing universal field names.
+The [Open-Agent-Compatibility-Fixtures repository](https://github.com/HuffmanRepositories/Open-Agent-Compatibility-Fixtures) currently contains seven illustrative draft cases: text request mapping, cancellation unsupported, capability mapping, artifact versus evidence, task lifecycle/correlation, protocol error versus task failure, and streaming/push semantics. Fixture expectations document gaps rather than inventing universal field names.
 
 These are static examples only. They have not been validated against live protocol implementations; do not treat them as conformance evidence.
 
